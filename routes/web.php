@@ -1,7 +1,10 @@
 <?php
 
 use App\Http\Controllers\PostController;
+use App\Http\Controllers\PostArticleController;
 use Illuminate\Support\Facades\Route;
+
+Route::get('/postsArticle', [PostArticleController::class,'index']);
 
 /*
 |--------------------------------------------------------------------------
